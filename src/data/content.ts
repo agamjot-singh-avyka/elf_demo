@@ -4,7 +4,7 @@ export const sections: { id: SectionKey; label: string; eyebrow: string; descrip
   { id: 'announcements', label: 'Announcements', eyebrow: 'WHAT’S NEW', description: 'Updates and moments worth sharing with the team.' },
   { id: 'champions', label: 'Champion stories', eyebrow: 'PEOPLE OF AIBLE', description: 'Recognize the people putting AI into practice.' },
   { id: 'leaderboard', label: 'Leaderboard', eyebrow: 'COMMUNITY PULSE', description: 'Celebrate participation and progress.' },
-  { id: 'learning', label: 'Learning paths', eyebrow: 'BUILD YOUR SKILLS', description: 'Curated paths to go from curious to confident.' },
+  { id: 'learning', label: 'Learning tracks', eyebrow: 'BUILD YOUR SKILLS', description: 'Curated paths to go from curious to confident.' },
   { id: 'resources', label: 'Resources', eyebrow: 'YOUR TOOLKIT', description: 'The useful links and guides, all in one place.' },
 ];
 
@@ -12,7 +12,6 @@ export const initialContent: ContentItem[] = [
   { id: 'a1', section: 'announcements', title: 'AI Week is around the corner', detail: 'Five days of hands-on sessions, team demos, and new ways to bring AI into your everyday work.', meta: 'EVENT · NOV 20', tone: 'plum' },
   { id: 'a2', section: 'announcements', title: 'Meet the new AIBLE office hours', detail: 'Bring a prompt, a workflow, or a question. Our champions are ready to help you get unstuck.', meta: 'COMMUNITY · NOV 18', tone: 'orange' },
   { id: 'a3', section: 'announcements', title: 'The prompt library just grew', detail: 'Browse 12 new, team-tested prompts for research, writing, and everyday productivity.', meta: 'RESOURCE · NOV 14', tone: 'green' },
-  { id: 'a4', section: 'announcements', title: 'Office hours — drop in on Nov 6', detail: 'Bring a prompt, a workflow, or a question. Our champions are ready to help you get unstuck.', meta: 'COMMUNITY · NOV 6', tone: 'orange' },
   { id: 'c1', section: 'champions', title: 'Maya Chen', detail: 'Turned a weekly reporting ritual into a 15-minute review with an AI-assisted workflow.', meta: 'MARKETING · CHAMPION', tone: 'orange' },
   { id: 'c2', section: 'champions', title: 'Jordan Lee', detail: 'Built a prompt kit that helps the whole team get to a sharper first draft, faster.', meta: 'PEOPLE · CHAMPION', tone: 'plum' },
   { id: 'c3', section: 'champions', title: 'Sam Rivera', detail: 'Made space for experimentation by sharing the wins, misses, and lessons along the way.', meta: 'FINANCE · CHAMPION', tone: 'green' },

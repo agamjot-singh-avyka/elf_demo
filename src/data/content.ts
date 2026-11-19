@@ -1,7 +1,7 @@
 import type { ContentItem, SectionKey } from '../types';
 
 export const sections: { id: SectionKey; label: string; eyebrow: string; description: string }[] = [
-  { id: 'announcements', label: 'Announcements', eyebrow: 'WHAT'S NEW', description: 'Updates and moments worth sharing with the team.' },
+  { id: 'announcements', label: 'Announcements', eyebrow: 'WHAT’S NEW', description: 'Updates and moments worth sharing with the team.' },
   { id: 'champions', label: 'Champion stories', eyebrow: 'PEOPLE OF AIBLE', description: 'Recognize the people putting AI into practice.' },
   { id: 'leaderboard', label: 'Leaderboard', eyebrow: 'COMMUNITY PULSE', description: 'Celebrate participation and progress.' },
   { id: 'learning', label: 'Learning Paths', eyebrow: 'BUILD YOUR SKILLS', description: 'Curated paths to go from curious to confident.' },

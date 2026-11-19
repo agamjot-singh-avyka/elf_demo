@@ -4,7 +4,7 @@ export const sections: { id: SectionKey; label: string; eyebrow: string; descrip
   { id: 'announcements', label: 'Announcements', eyebrow: 'WHAT’S NEW', description: 'Updates and moments worth sharing with the team.' },
   { id: 'champions', label: 'Champion stories', eyebrow: 'PEOPLE OF AIBLE', description: 'Recognize the people putting AI into practice.' },
   { id: 'leaderboard', label: 'Leaderboard', eyebrow: 'COMMUNITY PULSE', description: 'Celebrate participation and progress.' },
-  { id: 'learning', label: 'Learning tracks', eyebrow: 'BUILD YOUR SKILLS', description: 'Curated paths to go from curious to confident.' },
+  { id: 'learning', label: 'Learning Paths', eyebrow: 'BUILD YOUR SKILLS', description: 'Curated paths to go from curious to confident.' },
   { id: 'resources', label: 'Resources', eyebrow: 'YOUR TOOLKIT', description: 'The useful links and guides, all in one place.' },
 ];
 
@@ -20,7 +20,7 @@ export const initialContent: ContentItem[] = [
   { id: 'l3', section: 'leaderboard', title: 'Jordan Lee', detail: '12 points · 4 activities', meta: '03', tone: 'green' },
   { id: 't1', section: 'learning', title: 'AI essentials', detail: 'Start with the foundations: how generative AI works, where it helps, and how to use it responsibly.', meta: '4 LESSONS · 45 MIN', tone: 'blue' },
   { id: 't2', section: 'learning', title: 'Prompting with purpose', detail: 'Practice a repeatable framework for clear instructions, useful context, and better outputs.', meta: '5 LESSONS · 60 MIN', tone: 'plum' },
-  { id: 't3', section: 'learning', title: 'Build your first workflow', detail: 'Map a real task and prototype a workflow that gives your time back.', meta: '3 LESSONS · 40 MIN', tone: 'green' },
+  { id: 't3', section: 'learning', title: 'Build your first workflow', detail: 'Map a real task and prototype a workflow that gives you your time back.', meta: '3 LESSONS · 40 MIN', tone: 'green' },
   { id: 'r1', section: 'resources', title: 'AIBLE getting started guide', detail: 'A quick guide to the tools, guardrails, and support available to you.', meta: 'GUIDE · 8 MIN', tone: 'plum' },
   { id: 'r2', section: 'resources', title: 'Responsible AI principles', detail: 'The shared principles we use to keep experimentation thoughtful and safe.', meta: 'REFERENCE · 5 MIN', tone: 'blue' },
 ];

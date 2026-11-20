@@ -6,14 +6,14 @@ const nav = [
   { id: 'announcements', label: 'Announcements', icon: Megaphone },
   { id: 'champions', label: 'Champion stories', icon: UsersRound },
   { id: 'leaderboard', label: 'Leaderboard', icon: Trophy },
-  { id: 'learning', label: 'Learning tracks', icon: BookOpen },
+  { id: 'learning', label: 'Learning paths', icon: BookOpen },
   { id: 'resources', label: 'Resources', icon: LibraryBig },
 ] as const;
 
 export type ViewKey = 'overview' | SectionKey;
 
 export default function Sidebar({ active, onNavigate }: { active: ViewKey; onNavigate: (view: ViewKey) => void }) {
-  return <aside className="sidebar">
+  return <aside className="sidebar">">
     <div className="brand"><div className="brand-mark"><Gem size={19} strokeWidth={2.2} /></div><div><strong>AIBLE</strong><span>STUDIO</span></div></div>
     <div className="workspace-switch"><div className="workspace-avatar">e</div><div><small>WORKSPACE</small><b>e.l.f. Beauty</b></div><span className="chevron">⌄</span></div>
     <div className="nav-label">WORKSPACE</div>

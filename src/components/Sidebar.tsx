@@ -13,7 +13,7 @@ const nav = [
 export type ViewKey = 'overview' | SectionKey;
 
 export default function Sidebar({ active, onNavigate }: { active: ViewKey; onNavigate: (view: ViewKey) => void }) {
-  return <aside className="sidebar">">
+  return <aside className="sidebar">
     <div className="brand"><div className="brand-mark"><Gem size={19} strokeWidth={2.2} /></div><div><strong>AIBLE</strong><span>STUDIO</span></div></div>
     <div className="workspace-switch"><div className="workspace-avatar">e</div><div><small>WORKSPACE</small><b>e.l.f. Beauty</b></div><span className="chevron">⌄</span></div>
     <div className="nav-label">WORKSPACE</div>
